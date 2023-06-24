@@ -47,4 +47,25 @@ $lead:#6a6c6b;
         $t 65%
         )
         .6% 49% / .75em .4em,
-        
+        // hide part of tip
+      // btm 
+    linear-gradient(
+      15deg,
+       rgba($bk,1)50%,
+      rgba($t,0)51%,
+    )
+    0% 1em / 7% 100%,        
+        //top 
+    linear-gradient(
+      -15deg,
+       rgba($t,0)50%,
+      rgba($bk,1)51%,
+    )
+    0% -1em / 7% 100%,  
+// where the tip meets the pencil 
+    radial-gradient(
+        100% 100% at 50% 50%,
+        rgba($pencilOrange,1) 50%,
+      rgba(blue,0) 51%
+      )
+      6.8% 45% / 1.7em 1.7em, 
