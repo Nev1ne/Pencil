@@ -170,3 +170,62 @@ $lead:#6a6c6b;
       $t 65%
       )
       96% 90% / 1em 1em, 
+      //       ridges
+    radial-gradient(
+        100% 200% at 0% 50%,
+        rgba($metal,.0) 50%,
+      rgba(#000,.2) 51%,
+      rgba(#000,.3) 60%,
+      $t 65%
+      )
+      93% 50% / 2em 100%,         
+    radial-gradient(
+        100% 200% at 0% 50%,
+        rgba($metal,.0) 50%,
+      rgba(#000,.2) 51%,
+      rgba(#000,.3) 60%,
+      $t 65%
+      )
+      93.5% 50% / 2em 100%,        
+    radial-gradient(
+        100% 200% at 0% 50%,
+        rgba($metal,.0) 50%,
+      rgba(#000,.2) 51%,
+      rgba(#000,.3) 60%,
+      #fff 65%,
+      $t
+      )
+      94% 50% / 2em 100%,       
+    radial-gradient(
+        100% 200% at 0% 50%,
+        rgba($metal,.0) 50%,
+      rgba(#000,.2) 51%,
+      rgba(#000,.4) 60%,
+      $t 65%
+      )
+      96.5% 50% / 2em 100%,         
+    radial-gradient(
+        100% 200% at 0% 50%,
+        rgba($metal,.0) 50%,
+      rgba(#000,.2) 51%,
+      rgba(#000,.3) 60%,
+      $t 65%
+      )
+      97% 50% / 2em 100%,        
+    radial-gradient(
+        100% 200% at 0% 50%,
+        rgba($metal,.0) 50%,
+      rgba(#000,.2) 51%,
+      rgba(#000,.3) 60%,
+      #fff 65%,
+      $t
+      )
+      97.5% 50% / 2em 100%,        
+      
+    linear-gradient(
+      to bottom,
+       rgba($metal,1),
+     rgba($metal,1)65%, 
+    )
+   97.5% 100% / 7.5% 100%,  
+      
