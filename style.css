@@ -28,3 +28,23 @@ $lead:#6a6c6b;
       position: absolute;
       top:50%;
       left:49%;
+      transform:translate(-50%,-50%);
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      background: 
+      linear-gradient(
+        to right,
+         rgba($darkYellow,.2),
+        rgba($t,.2),
+      )
+      90% 100% / .5% 100%,       
+  // top reflection 
+      radial-gradient(
+          100% 100% at 50% 50%,
+        rgba(#fff,.3),
+          rgba(#fff,.2),
+        rgba(#fff,0) 51%,
+        $t 65%
+        )
+        .6% 49% / .75em .4em,
+        
