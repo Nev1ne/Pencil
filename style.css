@@ -69,3 +69,34 @@ $lead:#6a6c6b;
       rgba(blue,0) 51%
       )
       6.8% 45% / 1.7em 1.7em, 
+      //     tip shadow
+        //top
+    linear-gradient(
+      -15deg,
+       rgba($t,.0)30%,
+      rgba(#000,.1)55%,
+      $t 65%
+    )
+    0% -1em / 7% 100%,       
+        //btm
+    linear-gradient(
+      15deg,
+       rgba(#000,.3)30%,
+      rgba($t,.0)55%,
+      $t 65%
+    )
+    0% .3em / 7% 100%,  
+//       lead
+    linear-gradient(
+      to top,
+       rgba($lead,1),
+      rgba($lead,1)55%,
+    )
+    0% 20% / 2% 100%,       
+//     tip main
+    linear-gradient(
+      to top,
+       rgba($tip,1),
+      rgba($tip,1)55%,
+    )
+    0% 50% / 7% 100%, 
