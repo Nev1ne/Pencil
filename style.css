@@ -2,4 +2,29 @@ $bk: #00ABC4;
 $t: transparent;
 $pencilOrange: #EB9D00;
 $lightYellow: #f7d57b;
-$darkYellow
+$darkYellow: #b76309;
+$metal:#F8F9F2;
+$eraser:#d85d5f;
+$tip: #F3D9BD;
+$lead:#6a6c6b;
+
+@mixin for-phone-only {
+    @media (max-width: 599px) {
+      @content;
+    }
+  }
+  
+  
+  body{
+    font-size: 1vmin;
+    background-color:$bk;
+    div{
+      @include for-phone-only{
+        font-size: 1.25vmin;
+      }
+      font-size: 1.45vmin;
+      width: 93.5em;
+      height: 3.7em;
+      position: absolute;
+      top:50%;
+      left:49%;
